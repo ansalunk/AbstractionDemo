@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package com.iavnti.ability;
+
+/**
+ * @author anuja
+ *
+ */
+public interface Croak {
+
+}

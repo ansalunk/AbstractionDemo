@@ -1,0 +1,38 @@
+package com.ivanti.impl;
+
+import java.util.List;
+
+public class RandomField {
+
+	int index;
+	String name;
+	boolean isAnimal;
+	List<String> ls;
+	
+	public int getIndex() {
+		return index;
+	}
+	public void setIndex(int index) {
+		this.index = index;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public boolean isAnimal() {
+		return isAnimal;
+	}
+	public void setAnimal(boolean isAnimal) {
+		this.isAnimal = isAnimal;
+	}
+	public List<String> getLs() {
+		return ls;
+	}
+	public void setLs(List<String> ls) {
+		this.ls = ls;
+	}
+	
+	
+}

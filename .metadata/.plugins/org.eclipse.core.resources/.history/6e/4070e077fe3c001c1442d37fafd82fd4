@@ -1,0 +1,40 @@
+package com.ivanti.main;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import com.ivanti.impl.Dog;
+import com.ivanti.impl.Frog;
+
+public class TestDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Dog dog1 = new Dog();
+		dog1.bark();
+		
+		Frog frog1 = new Frog();
+		frog1.croak();
+		
+		dog1.jump();
+		frog1.jump();
+		
+		List<String> ls = new ArrayList<>();
+		ls.add("poodle");
+		ls.add("doberman");
+		ls.add("golden retriever");
+		
+		Dog dog2 = new Dog();
+		dog2.setAnimal(true);
+		dog2.setIndex(1);
+		dog2.setName("Tommy");
+		dog2.setLs(ls);
+		
+		dog2.toString();
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,8 @@
+package com.ivanti.impl;
+
+import com.iavnti.ability.Croak;
+
+public class Frog extends Animal implements Croak {
+
+	
+}

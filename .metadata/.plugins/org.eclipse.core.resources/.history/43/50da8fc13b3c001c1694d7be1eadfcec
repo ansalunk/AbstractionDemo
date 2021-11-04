@@ -1,0 +1,7 @@
+package com.ivanti.impl;
+
+import com.iavnti.ability.Barkable;
+
+public class Dog extends Animal implements Barkable {
+
+}

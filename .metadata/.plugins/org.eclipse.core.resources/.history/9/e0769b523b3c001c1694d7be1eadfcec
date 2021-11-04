@@ -1,0 +1,15 @@
+package com.ivanti.impl;
+
+import com.iavnti.ability.Croak;
+
+public class Frog extends Animal implements Croak {
+
+	@Override
+	public void croak() {
+		// TODO Auto-generated method stub
+		
+		System.out.println("I croak");
+	}
+
+	
+}

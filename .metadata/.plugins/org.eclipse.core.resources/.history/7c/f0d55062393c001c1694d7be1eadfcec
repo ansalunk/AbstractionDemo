@@ -1,0 +1,5 @@
+package com.ivanti.impl;
+
+public abstract class Animal {
+
+}

@@ -1,0 +1,26 @@
+package com.ivanti.main;
+
+import com.ivanti.impl.Dog;
+import com.ivanti.impl.Frog;
+
+public class TestDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Dog dog1 = new Dog();
+		dog1.bark();
+		
+		Frog frog1 = new Frog();
+		frog1.croak();
+		
+		dog1.jump();
+		frog1.jump();
+		
+		Dog dog2 = new Dog();
+		dog2.setAnima(true));
+		
+		
+	}
+
+}

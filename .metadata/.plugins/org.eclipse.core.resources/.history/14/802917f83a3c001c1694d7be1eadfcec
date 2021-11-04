@@ -1,0 +1,17 @@
+/**
+ * 
+ */
+package com.iavnti.ability;
+
+/**
+ * @author anuja
+ *
+ */
+public interface Croak {
+
+	public static void croak() {
+		
+		System.out.println("I croak");
+		
+	}
+}
